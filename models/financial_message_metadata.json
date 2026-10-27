@@ -1,0 +1,30 @@
+{
+  "model": "LogisticRegression_wordonly",
+  "feature_profile": "wordonly",
+  "feature_count": 844,
+  "standard_reference_feature_count": 9850,
+  "standard_reference_artifact_bytes": 105023,
+  "inference_benchmark": {
+    "selected": {
+      "median_ms_single_message": 2.354249940253794,
+      "p95_ms_single_message": 3.264700062572956,
+      "runs": 50
+    },
+    "standard_reference": {
+      "median_ms_single_message": 4.323499975726008,
+      "p95_ms_single_message": 10.446999920532107,
+      "runs": 50
+    },
+    "standard_reference_model": "LogisticRegression_standard"
+  },
+  "threshold": -0.2497958540916443,
+  "is_probability": false,
+  "domain": "English and Bangla general financial scam messages; not validated for scholarship offer fraud.",
+  "dataset": "Mendeley Data Financial scams detection dataset v2",
+  "dataset_url": "https://data.mendeley.com/datasets/znsk27yk3h/2",
+  "license": "CC BY 4.0",
+  "rows_after_ambiguity_and_duplicate_removal": 520,
+  "scholarship_related_keyword_rows": 5,
+  "test_scam_precision": 0.821917808219178,
+  "test_scam_recall": 0.967741935483871
+}

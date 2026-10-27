@@ -1,0 +1,2 @@
+{"label":"Illustrative prompts only; not live findings or real offers","scenarios":[{"name":"Supported claim example","message":"Replace with an actual official scholarship notice for the demo."},{"name":"Contradiction example","message":"Illustrative only: a message states a deadline; verify it against a real official page."},{"name":"Insufficient evidence example","message":"Illustrative only: opportunity details without a source."}]}
+

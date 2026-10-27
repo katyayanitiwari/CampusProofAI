@@ -1,0 +1,2 @@
+const API=import.meta.env.VITE_API_URL||'/api';export async function call(path:string,body?:unknown,method?:'GET'|'POST'|'PATCH'|'DELETE'){const verb=method||(body?'POST':'GET');const r=await fetch(API+path,{method:verb,headers:body?{'Content-Type':'application/json'}:undefined,body:body?JSON.stringify(body):undefined,credentials:'same-origin'});if(r.status===204)return null;const d=await r.json();if(!r.ok)throw new Error(d.detail||'Request failed');return d}
+

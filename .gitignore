@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+tools/cloudflared.exe
+node_modules/
+frontend/dist/
+models/*.joblib
+data/raw/*
+!data/raw/.gitkeep
+artifacts/metrics/*
+artifacts/plots/*
+artifacts/reports/*.sqlite3
+

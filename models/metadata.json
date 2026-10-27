@@ -1,0 +1,15 @@
+{
+  "threshold": 0.11946268438831364,
+  "model": "LinearSVC",
+  "domain": "English job postings only; not validated for scholarships.",
+  "is_probability": false,
+  "training_dataset": {
+    "name": "DIFrauD Job Scams",
+    "repository": "https://huggingface.co/datasets/difraud/difraud",
+    "revision": "26e18fecb5396f2eb9adb63d42cf916923043478",
+    "license": "MIT (as declared by the dataset publisher)",
+    "source_domain": "English employment/job postings; not scholarships"
+  },
+  "validation_f1": 0.8113207547169811,
+  "test_f1": 0.6593406593406593
+}
